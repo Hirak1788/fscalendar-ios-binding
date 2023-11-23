@@ -27,7 +27,7 @@ namespace FSCalendarQS.DIY
         {
             View = new UIView(UIScreen.MainScreen.Bounds)
             {
-                BackgroundColor = UIColor.GroupTableViewBackgroundColor
+                BackgroundColor = UIColor.GroupTableViewBackground
             };
 
             var height = UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Pad ? 450 : 300;
