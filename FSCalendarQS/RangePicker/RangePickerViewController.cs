@@ -28,7 +28,7 @@ namespace FSCalendarQS.RangePicker
             base.LoadView();
             View = new UIView(UIScreen.MainScreen.Bounds)
             {
-                BackgroundColor = UIColor.SystemBackgroundColor
+                BackgroundColor = UIColor.SystemBackground
             };
             Calendar = new FSCalendar()
             {
